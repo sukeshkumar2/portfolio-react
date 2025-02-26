@@ -3,9 +3,11 @@
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
+  var image_base_url = "../../../assets/";
+  //src = {image_base_url+"hero/heroImage.png"}
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
@@ -15,7 +17,7 @@ export const Experience = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  <img src={image_base_url+skill.imageSrc} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -27,7 +29,7 @@ export const Experience = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={getImageUrl(historyItem.imageSrc)}
+                  src={image_base_url+historyItem.imageSrc}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>

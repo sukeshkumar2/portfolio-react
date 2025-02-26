@@ -1,16 +1,19 @@
 //import React from "react";
 
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+
 import PropTypes from 'prop-types';
 
-export const ProjectCard = ({
+export const ProjectCard = (
+  
+  //src = {image_base_url+"hero/heroImage.png"}
+  {
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
     <div className={styles.container}>
       <img
-        src={getImageUrl(imageSrc)}
+        src={"../../../assets/"+imageSrc}
         alt={`Image of ${title}`}
         className={styles.image}
       />

@@ -1,9 +1,11 @@
 //import React from "react";
 
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
+  var image_base_url = "../../../assets/";
+  //src = {image_base_url+"hero/heroImage.png"}
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
@@ -12,22 +14,22 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <img src={image_base_url+"contact/emailIcon.png"} alt="Email icon" />
           <a href="mailto:sukeshcsulb@gmail.com">sukeshcsulb@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("contact/linkedinIcon.png")}
+            src={image_base_url+"contact/linkedinIcon.png"}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/sukeshkumar2/">linkedin.com/in/sukeshkumar2</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <img src={image_base_url+"contact/githubIcon.png"} alt="Github icon" />
           <a href="https://github.com/sukeshkumar2">github.com/sukeshkumar2</a>
         </li>
         <li className={styles.link}>
-          <img style={{height:"50px", width:"50px"}} src={getImageUrl("contact/leetcode.png")} alt="Leetcode icon" />
+          <img style={{height:"50px", width:"50px"}} src={image_base_url+"contact/leetcode.png"} alt="Leetcode icon" />
           <a href="https://leetcode.com/u/dosapatisukesh/">leetcode.com/u/dosapatisukesh</a>
         </li>
       </ul>

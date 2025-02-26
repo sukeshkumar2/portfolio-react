@@ -1,21 +1,24 @@
 //import React from "react";
 
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 
 export const About = () => {
+  var image_base_url = "../../../assets/";
+  //src = {image_base_url+"hero/heroImage.png"}
   return (
+    
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         {/* <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={image_base_url+"about/aboutImage.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" className={styles.icons} />
+            <img src={image_base_url+"about/cursorIcon.png"} alt="Cursor icon" className={styles.icons} />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -24,7 +27,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" className={styles.icons} />
+            <img src={image_base_url+"about/serverIcon.png"} alt="Server icon" className={styles.icons} />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -33,7 +36,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/devopsIcon.png")} alt="Devops icon" className={styles.icons}/>
+            <img src={image_base_url+"about/devopsIcon.png"} alt="Devops icon" className={styles.icons}/>
             <div className={styles.aboutItemText}>
               <h3>DevOps Enthusiast</h3>
               <p>
@@ -42,7 +45,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/AI.png")} alt="AI icon" className={styles.icons} />
+            <img src={image_base_url+"about/AI.png"} alt="AI icon" className={styles.icons} />
             <div className={styles.aboutItemText}>
               <h3>AI & ML Specialist</h3>
               <p>

@@ -1,9 +1,15 @@
 //import React from "react";
 
 import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
+
+//import {image_base_url} from "../../../assets/"
 
 export const Hero = () => {
+
+   var image_base_url = "../../../assets/";
+  
+  
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -17,7 +23,9 @@ export const Hero = () => {
         </a>
       </div> 
       <img
-        src={getImageUrl("hero/heroImage.png")}
+       // src={getImageUrl("hero/heroImage.png")}
+       src = {image_base_url+"hero/heroImage.png"}
+        
         alt="Hero image of me"
         className={styles.heroImg}
       />
