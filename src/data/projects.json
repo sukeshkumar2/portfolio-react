@@ -1,42 +1,50 @@
 [
     {
-      "title": "Project A",
+      "title": "Personal Finance Tracker",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "A personal finance tracking application that helps users monitor expenses and receive data-driven savings recommendations. Built with ReactJS, NodeJS, MongoDB, and Docker, and deployed on AWS. Key Features: Tracks 100+ unique monthly expenses,Provides data-driven savings recommendations,Achieved an average 20% increase in user savings",
+      "skills": ["ReactJS", "NodeJS", "MongoDB","Docker","AWS"],
+      "demo": "https://www.sukeshkumar.com",
+      "source": "https://github.com/sukeshkumar2"
+    },
+    {
+      "title": "Emotion-Analyzing Diary App",
+      "imageSrc": "projects/project.png",
+      "description": "A mobile diary application that uses sentiment analysis models (BERT, GPT) to assess users’ emotional states in real time. It provides users with personalized motivational content based on their emotional tone, helping to enhance self-awareness and mental well-being.",
+      "skills": ["React Native", "Express", "NodeJS", "BERT","GenAI"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project B",
+      "title": "Stock Price Forecasting with Deep Learning",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "Developed a deep learning-based stock price forecasting model using TensorFlow and Keras, leveraging time series analysis to capture market trends and improve predictive accuracy.",
+      "skills": ["TensorFlow", "Keras", "Python","Pandas", "NumPy"],
+      "demo": "https://github.com/sukeshkumar2/Analyzing-us-economic-data-using-pandas",
+      "source": "https://github.com/sukeshkumar2/Analyzing-us-economic-data-using-pandas"
     },
     {
-      "title": "Project C",
+      "title": "Personal Portfolio",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A personal portfolio website showcasing my skills, projects, and experience. Built with React, it features a responsive design, smooth animations, and an optimized user experience. Includes sections for about, experience, projects, blog, and contact, with seamless navigation and interactive UI elements.",
+      "skills": ["React", "CSS", "JavaScript","HTML","JSON"],
+      "demo": "https://www.sukeshkumar.com",
+      "source": "https://github.com/sukeshkumar2/portfolio-react"
     },
     {
-      "title": "Project D",
+      "title": "Spring Boot CRUD API",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A basic Spring Boot project implementing CRUD operations for task management. The application allows creating, updating, deleting, and assigning tasks to users while managing user data efficiently.",
+      "skills": ["Spring Boot", "Spring Data JPA", "SQL","REST API"],
+      "demo": "https://github.com/sukeshkumar2/spring-boot/tree/master",
+      "source": "https://github.com/sukeshkumar2/spring-boot/tree/master"
     },
     {
-      "title": "Project E",
+      "title": "Image to Text Converter",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "A cross-platform mobile application that converts images to text using Optical Character Recognition (OCR). Developed using Flutter (Dart) for a seamless experience across Android and iOS, with a web version available.",
+      "skills": ["Flutter","Dart","Tesseract OCR", "Swift","C"],
+      "demo": "https://github.com/sukeshkumar2/spring-boot/tree/master",
+      "source": "https://github.com/sukeshkumar2/spring-boot/tree/master"
     }
   ]

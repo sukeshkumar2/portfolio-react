@@ -1,4 +1,20 @@
 [
+  {
+    "title": "CPP",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/java-script.png"
+  },
     {
       "title": "HTML",
       "imageSrc": "skills/html.png"
@@ -16,15 +32,34 @@
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "Spring Boot",
+      "imageSrc": "skills/spring_boot.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
     },
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "GraphQL",
+      "imageSrc": "skills/graphql.png"
+    },
+    {
+      "title": "DevOps",
+      "imageSrc": "skills/devops.png"
+    },
+    {
+      "title": "AWS",
+      "imageSrc": "skills/aws.png"
+    },
+    {
+      "title": "AI/ML",
+      "imageSrc": "skills/robot.png"
     }
+
+    
+    
   ]

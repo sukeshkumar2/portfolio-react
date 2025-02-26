@@ -2,28 +2,31 @@
     {
       "role": "Specialist Programmer",
       "organisation": "Infosys",
-      "startDate": "September, 2021",
-      "endDate": "July, 2023",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "startDate": "Sep, 2021",
+      "endDate": "Jul, 2023",
+      "experiences": ["Developed legal applications for Cisco using Spring Boot (backend), React (frontend), and SQL database.", "Optimized database queries, caching, and APIs to enhance legal data retrieval speed and efficiency."],
+      "imageSrc": "history/infosys.png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
+      "role": "Co-founder, SWE",
+      "organisation": "ReadyMadeStore",
+      "startDate": "Mar, 2020",
+      "endDate": "Aug, 2021",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+        "Built an e-commerce platform using React and Spring Boot with a microservices architecture.",
+        "Managed website development, enabling seamless product listings and secure transactions."
       ],
-      "imageSrc": "history/netflix.png"
+      "imageSrc": "history/readymadestore.png"
+    },
+    {
+      "role": "Teaching Associate",
+      "organisation": "CSULB",
+      "startDate": "Jan, 2025",
+      "endDate": "Jun, 2025",
+      "experiences": [
+        "Instructing undergraduate students in CECS 174 (Programming & Problem Solving in Python).",
+        "Teaching Python programming concepts and introducing the basics of machine learning and AI."
+      ],
+      "imageSrc": "history/csulb.png"
     }
   ]

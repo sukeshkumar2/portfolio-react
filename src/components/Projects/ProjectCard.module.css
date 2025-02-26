@@ -7,7 +7,7 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 325px;
 }
 
 .image {
@@ -19,11 +19,35 @@
   font-weight: 700;
 }
 
-.description {
+/* .description {
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+} */
+.description {
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 400;
+  max-height: 120px; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 transparent; /* Custom scrollbar */
 }
+
+/* Optional: Custom scrollbar styling for Webkit browsers (Chrome, Safari) */
+.description::-webkit-scrollbar {
+  width: 5px;
+}
+
+.description::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.description::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 
 .skills {
   width: 100%;

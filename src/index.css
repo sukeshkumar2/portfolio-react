@@ -8,6 +8,11 @@
   
 }
 
-html{
+
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Hides horizontal scroll */
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }

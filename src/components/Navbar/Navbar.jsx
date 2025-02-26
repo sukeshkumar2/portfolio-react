@@ -15,6 +15,7 @@ export const Navbar = () => {
       <a className={styles.title} href="/">
         Portfolio
       </a>
+      
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -41,6 +42,9 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1LdSCDoMg_XXGoTZjUbEUtC5FzdmlZM16/view?usp=sharing">Resume</a>
           </li>
         </ul>
       </div>

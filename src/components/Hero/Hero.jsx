@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I&apos;m Sukesh</h1>
         <p className={styles.description}>
-        I&apos;m a passionate full-stack developer with expertise in React, Spring Boot, and NodeJS, creating scalable and efficient applications. Let&apos;s connect to build something amazing!
+        I&apos;m a passionate software engineer with expertise in full-stack development, machine learning and AI, DevOps, and both SQL and NoSQL databases. Let us connect to build something amazing!
 
         </p>
         <a href="mailto:sukeshcsulb@gmail.com" className={styles.contactBtn}>

@@ -15,7 +15,7 @@ export const About = () => {
         /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" className={styles.icons} />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -24,7 +24,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" className={styles.icons} />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -35,9 +35,18 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/devopsIcon.png")} alt="Devops icon" className={styles.icons}/>
             <div className={styles.aboutItemText}>
-              <h3>Devops</h3>
+              <h3>DevOps Enthusiast</h3>
               <p>
               I have experience in DevOps practices, leveraging Docker, Kubernetes, and CI/CD pipelines to automate deployments and ensure seamless scalability. Proficient in AWS, monitoring tools like Grafana, and infrastructure as code (IaC) with Terraform for efficient cloud management.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/AI.png")} alt="AI icon" className={styles.icons} />
+            <div className={styles.aboutItemText}>
+              <h3>AI & ML Specialist</h3>
+              <p>
+              I have expertise in Artificial Intelligence, Machine Learning, and Generative AI, building intelligent systems with deep learning frameworks like TensorFlow and PyTorch. Proficient in NLP, computer vision, and model fine-tuning, leveraging large language models (LLMs) and transformers to develop scalable and efficient AI-driven applications.
               </p>
             </div>
           </li>
