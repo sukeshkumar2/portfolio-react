@@ -46,7 +46,7 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/195GTwNTEk73cDKSgkJBoI7z3U14WXAP6/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/1G7mrnKOKMgafmUEFebdOuj7IkO5fTe79/view?usp=sharing">Resume</a>
           </li>
         </ul>
       </div>
