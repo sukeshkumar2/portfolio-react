@@ -25,7 +25,7 @@ export const Education = () => {
               <h3>Bachelor of Technology in Computer Science and Engineering</h3>
               <p>
                 B V Raju Institute of Technology, India <br />
-                Aug 2018 – Jul 2022
+                Jul 2017 – Jun 2021
               </p>
             </div>
           </li>
