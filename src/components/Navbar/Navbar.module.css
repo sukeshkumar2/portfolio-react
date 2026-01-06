@@ -1,14 +1,27 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: sticky;
+  top: 15px;
+  /* Float slightly from top */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 15px 30px;
+  /* Balanced padding */
   z-index: 2;
   margin: 0 10%;
- 
+  background-color: rgba(4, 21, 45, 0.5);
+  /* More transparent */
+  backdrop-filter: saturate(180%) blur(20px);
+  /* Apple-style vibrant blur */
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  /* Safari support */
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* Subtle premium border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* Softer, deeper shadow */
 }
 
 .title {
@@ -25,13 +38,13 @@
 
 .menu {
   display: flex;
- 
+
 
 }
 
 .menuItems {
   display: flex;
-  
+
   gap: 47px;
   list-style: none;
 }
@@ -70,11 +83,9 @@
     gap: 13px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: linear-gradient(0deg,
+        rgba(25, 55, 109, 0.2) 0%,
+        rgba(25, 55, 109, 1) 100%);
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
