@@ -12,6 +12,19 @@
     "imageSrc": "history/hyundai.png"
   },
   {
+    "role": "Research Assistant (Volunteer)",
+    "organisation": "CSULB",
+    "startDate": "Aug, 2025",
+    "endDate": "Dec, 2025",
+    "location": "Long Beach, CA",
+    "experiences": [
+      "Researched and developed a multi-agent AI collaboration platform, exploring agentic AI architectures where autonomous agents coordinate tasks and share contextual knowledge.",
+      "Implemented Model Context Protocol (MCP)–based communication mechanisms to enable structured context exchange and interoperability between AI agents.",
+      "Built experimental prototypes and evaluated agent orchestration strategies, analyzing the impact of memory, tool usage, and inter-agent communication on collaborative AI performance."
+    ],
+    "imageSrc": "history/csulb.svg"
+  },
+  {
     "role": "Teaching Associate",
     "organisation": "CSULB",
     "startDate": "Jan, 2025",
@@ -20,7 +33,7 @@
       "Instructing undergraduate students in CECS 174 (Programming & Problem Solving in Python).",
       "Teaching Python programming concepts and introducing the basics of machine learning and AI."
     ],
-    "imageSrc": "history/csulb.png"
+    "imageSrc": "history/csulb.svg"
   },
   {
     "role": "Specialist Programmer",
@@ -31,6 +44,18 @@
       "Developed legal applications for Cisco using Spring Boot (backend), React (frontend), and SQL database.",
       "Optimized database queries, caching, and APIs to enhance legal data retrieval speed and efficiency."
     ],
-    "imageSrc": "history/infosys.png"
+    "imageSrc": "history/infosys.svg"
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "IBM",
+    "startDate": "Jul, 2019",
+    "endDate": "Aug, 2021",
+    "experiences": [
+      "Built a Java and Spring Boot banking transaction processing platform supporting 100,000+ daily transactions with a 99.5% success rate across ACH transfers, wire payments, and account reconciliation.",
+      "Integrated Apache Kafka to asynchronously stream payment events across authorization, fraud screening, and settlement services, improving transaction throughput by 25% with zero event loss.",
+      "Tuned PostgreSQL and Cassandra query performance for transaction ledger reads, reducing average response time by 25% and improving stability during end-of-day batch reconciliation jobs."
+    ],
+    "imageSrc": "history/ibm.svg"
   }
 ]

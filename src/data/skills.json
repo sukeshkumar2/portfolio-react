@@ -1,65 +1,20 @@
 [
-  {
-    "title": "CPP",
-    "imageSrc": "skills/cpp.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/java-script.png"
-  },
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "Spring Boot",
-      "imageSrc": "skills/spring_boot.png"
-    },
-    {
-      "title": "SQL",
-      "imageSrc": "skills/sql.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
-    },
-    {
-      "title": "DevOps",
-      "imageSrc": "skills/devops.png"
-    },
-    {
-      "title": "AWS",
-      "imageSrc": "skills/aws.png"
-    },
-    {
-      "title": "AI/ML",
-      "imageSrc": "skills/robot.png"
-    }
-
-    
-    
-  ]
+  { "title": "Java", "imageSrc": "skills/java.png" },
+  { "title": "Python", "imageSrc": "skills/python.png" },
+  { "title": "JavaScript", "imageSrc": "skills/java-script.png" },
+  { "title": "C++", "imageSrc": "skills/cpp.png" },
+  { "title": "React", "imageSrc": "skills/react.png" },
+  { "title": "Spring Boot", "imageSrc": "skills/spring_boot.png" },
+  { "title": "Node.js", "imageSrc": "skills/node.png" },
+  { "title": "GraphQL", "imageSrc": "skills/graphql.png" },
+  { "title": "SQL", "imageSrc": "skills/sql.png" },
+  { "title": "MongoDB", "imageSrc": "skills/mongodb.png" },
+  { "title": "AWS", "imageSrc": "skills/aws.png" },
+  { "title": "Docker", "imageSrc": "skills/docker.svg" },
+  { "title": "Kubernetes", "imageSrc": "skills/kubernetes.svg" },
+  { "title": "Git", "imageSrc": "skills/git.svg" },
+  { "title": "Gen AI", "imageSrc": "skills/genai.svg" },
+  { "title": "Claude Code", "imageSrc": "skills/claude.svg" },
+  { "title": "AI/ML", "imageSrc": "skills/robot.png" },
+  { "title": "DevOps", "imageSrc": "skills/devops.png" }
+]

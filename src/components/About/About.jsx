@@ -1,58 +1,52 @@
-//import React from "react";
-
 import styles from "./About.module.css";
-//import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../utils";
+
+const items = [
+  {
+    icon: "about/uiIcon.png",
+    alt: "Full Stack icon",
+    title: "Full Stack Developer",
+    description:
+      "Proficient in React, Next.js, and Tailwind CSS on the frontend, and Spring Boot, Node.js, SQL, MongoDB, REST APIs, microservices, and GraphQL on the backend — building scalable end-to-end applications.",
+  },
+  {
+    icon: "skills/genai.svg",
+    alt: "Gen AI icon",
+    title: "Gen AI Engineer",
+    description:
+      "Building intelligent systems with LLMs, RAG pipelines, and multi-agent frameworks. Experienced with Claude, OpenAI APIs, LangChain, and Model Context Protocol (MCP) for production-grade AI applications.",
+  },
+  {
+    icon: "about/devopsIcon.png",
+    alt: "DevOps icon",
+    title: "DevOps Enthusiast",
+    description:
+      "Proficient in Docker, Kubernetes, CI/CD pipelines, AWS, Terraform, and Grafana for automated deployments and cloud infrastructure management.",
+  },
+  {
+    icon: "about/AI.png",
+    alt: "AI icon",
+    title: "AI & ML Specialist",
+    description:
+      "Expert in ML, Deep Learning, and Generative AI using TensorFlow and PyTorch. Skilled in NLP, computer vision, and LLM fine-tuning for scalable AI applications.",
+  },
+];
 
 export const About = () => {
-  var image_base_url = "../../../assets/";
-  //src = {image_base_url+"hero/heroImage.png"}
   return (
-    
-    <section className={styles.container} id="about">
+    <section className={`${styles.container} fade-in-up`} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        {/* <img
-          src={image_base_url+"about/aboutImage.png")}
-          alt="Me sitting with a laptop"
-          className={styles.aboutImage}
-        /> */}
         <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={image_base_url+"about/cursorIcon.png"} alt="Cursor icon" className={styles.icons} />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-              I have expertise in React, building dynamic and responsive web applications with React Hooks, Context API, and Redux for state management. Proficient in Next.js, Tailwind CSS, and component-driven development, ensuring high performance and scalability.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={image_base_url+"about/serverIcon.png"} alt="Server icon" className={styles.icons} />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-              I have experience developing fast and optimized back-end systems and APIs using Spring Boot, SQL, NodeJS, and MongoDB, with expertise in REST APIs, microservices architecture, and GraphQL to ensure scalability and efficiency.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={image_base_url+"about/devopsIcon.png"} alt="Devops icon" className={styles.icons}/>
-            <div className={styles.aboutItemText}>
-              <h3>DevOps Enthusiast</h3>
-              <p>
-              I have experience in DevOps practices, leveraging Docker, Kubernetes, and CI/CD pipelines to automate deployments and ensure seamless scalability. Proficient in AWS, monitoring tools like Grafana, and infrastructure as code (IaC) with Terraform for efficient cloud management.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={image_base_url+"about/AI.png"} alt="AI icon" className={styles.icons} />
-            <div className={styles.aboutItemText}>
-              <h3>AI & ML Specialist</h3>
-              <p>
-              I have expertise in Artificial Intelligence, Machine Learning, and Generative AI, building intelligent systems with deep learning frameworks like TensorFlow and PyTorch. Proficient in NLP, computer vision, and model fine-tuning, leveraging large language models (LLMs) and transformers to develop scalable and efficient AI-driven applications.
-              </p>
-            </div>
-          </li>
+          {items.map((item, id) => (
+            <li key={id} className={styles.aboutItem}>
+              <img src={getImageUrl(item.icon)} alt={item.alt} className={styles.icon} />
+              <div className={styles.aboutItemText}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

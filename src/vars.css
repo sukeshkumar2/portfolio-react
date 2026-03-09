@@ -1,15 +1,37 @@
-:root{
+:root {
+  /* Base colors */
+  --color-bg: #04152d;
+  --color-dark: #0b2447;
+  --color-secondary: #19376d;
+  --color-primary: #576cbc;
+  --color-accent: #4fc3f7;
 
-    /* colors*/
+  /* Text */
+  --color-text: #e8f4f8;
+  --color-text-muted: rgba(232, 244, 248, 0.6);
 
-    --color-text: #fff;
-    --color-primary:#576cbc;
-    --color-secondary:#19376d;
-    --color-dark:#0b2447;
-    --color-bg:#04152d;
+  /* Glassmorphism */
+  --color-card: rgba(255, 255, 255, 0.04);
+  --color-border: rgba(255, 255, 255, 0.1);
 
-    /*Fonts*/
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #576cbc 0%, #4fc3f7 100%);
+  --gradient-card: linear-gradient(135deg, rgba(87, 108, 188, 0.15) 0%, rgba(79, 195, 247, 0.05) 100%);
 
-    --font-robot: "Roboto";
+  /* Shadows */
+  --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 20px rgba(87, 108, 188, 0.3);
 
+  /* Transitions */
+  --transition: all 0.3s ease;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+  --font-outfit: "Outfit";
 }
