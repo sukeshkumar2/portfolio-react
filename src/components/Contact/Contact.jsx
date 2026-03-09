@@ -5,8 +5,8 @@ const links = [
   {
     icon: "contact/emailIcon.png",
     alt: "Email",
-    label: "dosapatisukesh@gmail.com",
-    href: "mailto:dosapatisukesh@gmail.com",
+    label: "sukeshk.swe@gmail.com",
+    href: "mailto:sukeshk.swe@gmail.com",
   },
   {
     icon: "contact/linkedinIcon.png",

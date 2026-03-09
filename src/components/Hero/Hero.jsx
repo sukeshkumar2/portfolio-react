@@ -12,7 +12,7 @@ export const Hero = () => {
           AI &amp; ML, and DevOps. Let&apos;s build something amazing together!
         </p>
         <div className={styles.actions}>
-          <a href="mailto:sukeshcsulb@gmail.com" className={styles.contactBtn}>
+          <a href="mailto:sukeshk.swe@gmail.com" className={styles.contactBtn}>
             Contact Me
           </a>
           <a href="#projects" className={styles.projectsBtn}>
