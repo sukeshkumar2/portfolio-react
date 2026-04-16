@@ -28,7 +28,7 @@ export const Navbar = () => {
           <li><a href="#contact">Contact</a></li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1lLBbpqDv3SC7-DLSL6dnz09LCGrJg-CO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YJVJY5rzBAS6OZoSbwY1UTV-Q1mj2cxh/view?usp=sharing"
               className={styles.resumeBtn}
               target="_blank"
               rel="noreferrer"
