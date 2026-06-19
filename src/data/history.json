@@ -41,7 +41,7 @@
     "startDate": "Sep, 2021",
     "endDate": "Jul, 2023",
     "experiences": [
-      "Developed legal applications for Cisco using Spring Boot (backend), React (frontend), and SQL database.",
+      "Developed applications for client using Spring Boot (backend), React (frontend), and SQL database.",
       "Optimized database queries, caching, and APIs to enhance legal data retrieval speed and efficiency."
     ],
     "imageSrc": "history/infosys.svg"
